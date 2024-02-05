@@ -1,0 +1,12 @@
+.my-bg {
+  background-image: url("../../assets/graphics/bg-reserve.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr)); */
+.my-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr));
+  grid-gap: 2rem;
+}
